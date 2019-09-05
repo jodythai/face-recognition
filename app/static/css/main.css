@@ -143,6 +143,14 @@ input[type="text"] {
   margin: 0 auto;
 }
 
+.taken-photo {
+  margin: 0 auto;
+}
+
+.results {
+  text-align: center;
+}
+
 /*-----------------------------------*\
   $ANIMATIONS
 \*-----------------------------------*/

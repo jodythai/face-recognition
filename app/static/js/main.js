@@ -59,6 +59,7 @@ $('.btn-capture-image').on('click', function(e) {
       data: JSON.stringify(json_data),
       success: function(data) {
         $('#my-camera').removeClass('hidden');
+        $('.results').removeClass('hidden')
         $('.taken-photo').attr('src', data_uri).addClass('hidden');
         $('.btn-capture-image').removeClass('is-loading')
         $('.face-found').text(data['face_found_in_image'])
